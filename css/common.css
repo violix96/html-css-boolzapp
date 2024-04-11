@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to bottom, #029588 22%, #DCDBD2 22%);
+    
+}
+.container{
+    margin: auto;
+    width: 80%;
+    height: 90%;
+}
+
+.row{
+    display: flex;
+}
+
+.bg-yellow{
+    background-color: yellow ;
+}
+
+.height.xl{
+    height: 500px;
+}
