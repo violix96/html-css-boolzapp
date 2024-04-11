@@ -9,7 +9,7 @@ body{
 .container{
     margin: auto;
     width: 80%;
-    height: 90%;
+    /* height: 90%; */
 }
 
 .row{
@@ -32,7 +32,7 @@ body{
     background-color: violet;
 }
 .bg-silver{
-    background-color: silver;
+    background-color: #EAEAEA;
 }
 .bg-lightblue{
     background-color: #8FDAFC;
@@ -42,13 +42,13 @@ body{
 }
 
 .height-xl{
-    height: 600px;
+    height: 741px;
 }
 .height-l{
     height: 400px;
 }
 .height-s{
-    height: 200px;
+    height: 150px;
 }
 
 .col-left{
@@ -67,6 +67,9 @@ body{
 }
 .py-20{
     padding: 20px 0px;
+}
+.py-28{
+    padding: 28px 0px;
 }
 .py-30{
     padding: 30px 0px;
@@ -122,8 +125,31 @@ body{
     height: 50px;
     background-color: rgb(255, 255, 255);
 }
+ .square-bottom{
+    width: 100%;
+    background-color: #F3EEEB
+}
 
 .over-flow{
     overflow: scroll;
     overflow-x: hidden;
+}
+
+.box-chat{
+    width: 80%;
+    height: 30px;
+}
+
+.margin-chat-box{
+    margin: 0px auto;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: 30px;
+    left: 10%;
 }
