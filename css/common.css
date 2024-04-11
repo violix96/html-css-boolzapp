@@ -34,6 +34,12 @@ body{
 .bg-silver{
     background-color: silver;
 }
+.bg-lightblue{
+    background-color: #8FDAFC;
+}
+.bg-gold{
+    background-color: gold;
+}
 
 .height-xl{
     height: 600px;
@@ -115,4 +121,9 @@ body{
     width: 20%;
     height: 50px;
     background-color: rgb(255, 255, 255);
+}
+
+.over-flow{
+    overflow: scroll;
+    overflow-x: hidden;
 }
