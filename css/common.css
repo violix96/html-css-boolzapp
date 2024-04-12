@@ -2,14 +2,13 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
-    background: linear-gradient(to bottom, #029588 22%, #DCDBD2 22%);
+    background: linear-gradient(to bottom, #029588 100px, #DCDBD2 100px);
     font-weight: 100;
     font-style: normal;
 }
 .container{
     margin: auto;
     width: 80%;
-    /* height: 90%; */
 }
 
 .row{
@@ -32,17 +31,19 @@ body{
     background-color: violet;
 }
 .bg-silver{
-    background-color: #EAEAEA;
+    background-color: #FAFAFA;
 }
 .bg-lightblue{
     background-color: #8FDAFC;
 }
 .bg-gold{
-    background-color: gold;
+    background-color: #FFFFFF;
+   display: flex;
+   flex-direction: row
 }
 
 .height-xl{
-    height: 741px;
+    height: calc(100% - 120px);
 }
 .height-l{
     height: 400px;
@@ -53,9 +54,14 @@ body{
 
 .col-left{
     width: 30%;
+    height: 100%;
 }
 .col-right{
     width: 70%;
+
+}
+.h-20 {
+    height: 20%;
 }
 
 .border{
@@ -91,6 +97,9 @@ body{
 }
 
 
+.my-20{
+    margin: 20px 0px;
+}
 .my-40{
     margin: 40px 0px;
 }
@@ -106,6 +115,9 @@ body{
 .my-80{
     margin: 80px 0px;
 }
+.margin-top{
+   margin-top: 2px;
+}
  .flex-column{
     display: flex;
     flex-direction: column;
@@ -119,15 +131,39 @@ body{
     display: flex;
     justify-content: space-between;
  }
+ .align-center {
+    align-items: center;
+ }
 
  .square{
     width: 20%;
-    height: 50px;
+    /* height: 50px; */
     background-color: rgb(255, 255, 255);
 }
- .square-bottom{
-    width: 100%;
-    background-color: #F3EEEB
+ .square-bottom-centre{
+    width: 90%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .square-bottom-right{
+    width: 5%;
+    height: 50px;
+    /* background-color: darkorchid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .square-bottom-left{
+    width: 5%;
+    height: 50px;
+    /* background-color: darkgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .over-flow{
@@ -135,9 +171,10 @@ body{
     overflow-x: hidden;
 }
 
-.box-chat{
-    width: 80%;
+.chat-box{
+    width: 100%;
     height: 30px;
+
 }
 
 .margin-chat-box{
@@ -153,3 +190,65 @@ body{
     top: 30px;
     left: 10%;
 }
+
+.avatar{
+    width: 50px;
+    border-radius: 10px;
+}
+
+
+.wallpaper{
+    background-image: url(../img/mine.jpg); 
+}
+
+.fa-bell{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fa-face-smile{
+    font-size: 25px;
+}
+
+.fa-microphone{
+    font-size: 25px;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+  }
+
+  .cerca{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    height: 50px;
+  }
+
+  .contatto{
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .anteprima-messaggi{
+    font-size: 15px;
+    color: #B8BABB;
+    margin-left: 10px;
+  }
+
+  .time{
+    font-size: 15px;
+    color: #B8BABB;
+    margin-left: 200px;
+  }
+  .border-bottom{
+    border-bottom: 1px solid lightgray;
+  }
