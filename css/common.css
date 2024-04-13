@@ -3,12 +3,13 @@ body{
     width: 100vw;
     display: flex;
     background: linear-gradient(to bottom, #029588 100px, #DCDBD2 100px);
-    font-weight: 100;
+    font-weight: 100px;
     font-style: normal;
 }
 .container{
     margin: auto;
     width: 80%;
+    /* height: 90%; */
 }
 
 .row{
@@ -31,22 +32,23 @@ body{
     background-color: violet;
 }
 .bg-silver{
-    background-color: #FAFAFA;
+    background-color: #EAEAEA;
 }
 .bg-lightblue{
     background-color: #8FDAFC;
 }
 .bg-gold{
-    background-color: #FFFFFF;
+    background-color: #EAEAEA;
    display: flex;
    flex-direction: row
 }
 
 .height-xl{
-    height: calc(100% - 180px);
+    height: calc(60vh + 80px + 90px - 50px);
+    /* altezza cronologia chat + altezza ricevi notifiche + altezza cerca chat - altezza text box scrivi messaggio*/
 }
 .height-l{
-    height: 400px;
+    height: 60vh;
 }
 .height-s{
     height: 150px;
@@ -136,9 +138,19 @@ body{
  }
 
  .square{
+    width: 50%;
+    /* height: 50px; */
+    background-color: transparent;
+}
+.square-l{
+    width: 80%;
+    /* height: 50px; */
+    background-color: transparent;
+}
+.square-r{
     width: 20%;
-    height: 50px;
-    background-color: red
+    /* height: 50px; */
+    background-color: transparent;
 }
  .square-bottom-centre{
     width: 90%;
@@ -245,9 +257,30 @@ input[type="text"] {
 
   .time{
     font-size: 15px;
-    color: #B8BABB;
+    color: #6B7376;
     margin-left: 200px;
   }
   .border-bottom{
     border-bottom: 1px solid lightgray;
   }
+
+  .ultimo-accesso{
+    font-size: 15px;
+    color: lightslategray;
+    line-height: 30px;
+  }
+  
+  .header-container{
+    min-height: 55px;
+  }
+
+  .f-end{
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .mx-10{
+    margin: 0 10px;
+  }
+
+  
