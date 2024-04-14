@@ -5,6 +5,7 @@ body{
     background: linear-gradient(to bottom, #029588 100px, #DCDBD2 100px);
     font-weight: 100px;
     font-style: normal;
+    font-family: lato;
 }
 .container{
     margin: auto;
@@ -67,7 +68,7 @@ body{
 }
 
 .border{
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
 
 .py-10{
@@ -139,7 +140,12 @@ body{
     align-items: center;
  }
 
- .square{
+ .square-lt{
+    width: 50%;
+    /* height: 50px; */
+    background-color: transparent;
+}
+ .square-rt{
     width: 50%;
     /* height: 50px; */
     background-color: transparent;
@@ -288,14 +294,15 @@ input[type="text"] {
   .text-chat-me{
     width: 65%;
     background-color: #D4F9BB;
-    border-radius: 10%;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 22px;
   }
   .text-chat-you{
    width: 65%;
    background-color: #FFFFFF;
-    border-radius: 10%;
-    padding: 5px;
+   padding: 22px;
+   border-radius: 10px;
+   
   }
 
 
@@ -310,3 +317,8 @@ input[type="text"] {
   .f-js-end{
     justify-content: end;
   }
+
+.p-chat{
+    font-size: 14px;
+    font-weight: bold;
+}
