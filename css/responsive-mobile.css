@@ -1,0 +1,18 @@
+@media screen and (max-width: 576px) {
+    .col-left{
+        display: none;
+    }
+
+    .square-bottom-left{
+        display: none;
+    }
+    .square-bottom-right{
+        display: none;
+    }
+    .square-bottom-centre{
+        width: 100%;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+}
