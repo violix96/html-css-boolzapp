@@ -39,9 +39,9 @@ body{
     background-color: #8FDAFC;
 }
 .bg-gold{
-    background-color: #EAEAEA;
+    background-color: white;
    display: flex;
-   flex-direction: row
+   flex-direction: row;
 }
 
 .height-xl{
@@ -265,9 +265,9 @@ input[type="text"] {
   }
 
   .time{
-    font-size: 15px;
+    font-size: 12px;
     color: #6B7376;
-    margin-left: 200px;
+    margin-left: 150px;
   }
   .border-bottom{
     border-bottom: 1px solid lightgray;
@@ -323,3 +323,9 @@ input[type="text"] {
     font-size: 14px;
     font-weight: bold;
 }
+
+.fa-face-smile, .fa-microphone, .fa-circle, .fa-message, .fa-ellipsis-vertical {
+    filter: grayscale(100%)
+}
+
+
